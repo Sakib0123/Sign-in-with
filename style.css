@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(to bottom ,#F6F8FC 70% , #FFFFFF 30%);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0,0.9);
+}
+.aelin-desc{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.jumbotron{
+    background-image: linear-gradient( rgba(77, 80, 222,0.2),rgba(77, 80, 222,0.2)),url('../Assets/back.jpg');
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    margin-left: 10rem;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+  }
+.form-bg{
+   
+}
+.display-3{
+    font-size: 1.6rem;
+}
+.display-4{
+    font-size: 1.2rem;
+      font-family:'Baloo Tamma 2', cursive;
+    margin-bottom: 0.5rem;
+    color: rgba(0,0,0,0.9);
+    }
+.lebel{
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-family:'Baloo Tamma 2', cursive;
+}
+.icon{
+    color: #020202;
+    font-weight: 600;
+    
+}
+.input{
+    background: transparent;
+    margin-top: 10px;
+    border: 0px;
+    border-bottom: 2px solid  rgb(77, 80, 222);
+    color: rgba(255,255,255,0.5);
+    padding: 10px;
+    width: 350px;
+}
+.description{
+    margin-top: 30%;
+}
+.btn-danger{
+    background:  #4D50DE;
+    border-color: #4D50DE;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.btn-danger:hover{
+    background:  #0F1011;
+    transition-delay: .3s;
+    border-color: #020202;
+}
+a{
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+    margin-left: 0.3rem;
+}
+a:hover{
+    color: rgba(0,0,0,1);
+    text-decoration: none;
+    margin-left: 0.3rem;
+}
+.form-check-input{
+    width: 0.7rem;
+    background:  #EDE0DF;
+}
+.social-icon-pack{
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
